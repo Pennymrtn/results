@@ -2,7 +2,6 @@ body{
     background-color: bisque;
     font-family: Hanken Grotesk;
 }
-
 .window{
     display: flex;
     flex-direction: row;
@@ -11,16 +10,17 @@ body{
     background-color: white;
     border-radius: 15px;
     font-size: 18px;
-    width: 75vw;
+    width: 50vw;
     margin-top: 20vh;
     margin-bottom: 20vh;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for depth */
 }
-
+/*=============RESULT BOX==================*/
 .results-box{
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
@@ -31,7 +31,7 @@ body{
 .results-box h1{
     color: hsl(241, 100%, 89%);
     font-weight: 500;
-    font-size: 25px;
+    font-size: large;
 }
 .results-box .circle{
     display: flex;
@@ -61,12 +61,59 @@ body{
 .results-box .comparison{
     color: hsl(241, 100%, 89%);
 }
-.result-summary{
+
+/*=============RESULT SUMMARY==================*/
+.summary-box{
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
     background-color: white;
-    text-align: center;
+}
+.summary-box h2{
+    color:black;
+    font-size: large;
+    margin-left: 2rem;
+}
+.summary-box ul{
+    list-style: none;
+    width: 75%;
+}
+.summary-box .reaction{
+    background-color: hsl(0, 100%, 67%,0.1);
+    border-radius: 10px;
+    height:10vh;
+    margin-bottom: 4%;
+}
+.summary-box .text-reaction{
+    color: hsl(0, 100%, 67%);
+}
+.summary-box .memory{
+    background-color: hsl(39, 100%, 56%,0.1);
+    border-radius: 10px;
+    height:10vh;
+    margin-bottom: 4%;
+    
+}
+.summary-box .verbal{
+    background-color: hsl(166, 100%, 37%,0.1);
+    border-radius: 10px;
+    height:10vh;
+    margin-bottom: 4%;
+    
+}
+.summary-box .visual{
+    background-color: hsl(234, 85%, 45%,0.1);
+    border-radius: 10px;
+    height:10vh;
+    margin-bottom: 4%;
 
+}
+.summary-box .continue{
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 20px;
+    height:10vh;
+    margin-bottom: 4%;
 }
