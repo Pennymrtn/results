@@ -63,6 +63,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 <link rel="stylesheet" href="mystyle.css"> : THIS IS THE CODE TO LINK YOUR CSS TO YOUR HTML LEARN IT ONCE AND FOR ALL!!!!!!
 
+If you don't want problem with the size of the screen : give your window a width:100%. Then no problem
+
+line-height controls the distance between two lines !
+
+Use section instead of div
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
